@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap');
+
+body{
+max-width: 100%;
+overflow-x: hidden;
+}
+
+
+
+
+.navbar {
+  background: #000000
+}
+
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #fec400;
+  transition: 0.4s
+}
+
+.nav-item:hover::after {
+  width: 100%
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fec400
+}
+
+.nav-link {
+  padding: 25px 5px;
+  transition: 0.2s
+}
+
+body{
+  background-color:grey;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+.collapse{
+    margin-left: 280px;
+}
+.nav-item{
+    font-family: 'Red Hat Display', sans-serif;
+    padding-left: 30px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875;
+    text-transform: none;   
+}
+.btn:not(:disabled):not(.disabled){
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+}
+.form-control{
+  border-radius: 35px;
+    height: 62px;
+}
+.first-section{
+    background-color: rgb(48 67 168);
+}
+.text-form{
+    display: flex;
+}
+.heading{
+    padding-top: 195px;
+}
+.rating-student{
+  padding-top: 30px;
+}
+.best{
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 58px;
+    font-weight: 900;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+
+.student-client-say{
+  display: flex;
+}
+
+
+.main-section{
+	padding: 15px;
+	background:#f1f1f1;
+}
+.custom-file-control::after {
+  content: "Choose file...";
+}
+.custom-file-control::before {
+  content: "Browse";
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.first-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.rating{
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+.how-step{
+    text-align: center;
+    padding-top: 20px;
+}
+.how-to{
+    font-size: 14px;
+    font-weight: bold;
+    color: #a5b7d2;
+    position: relative;
+    display: inline-block;
+    padding-left: 21px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.get{
+    padding-top: 70px;
+}
+.card-text{
+    color: #83868a;
+}
+.steps{
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    color: #1a1b1e;
+    font-family: "Red Hat Display", sans-serif;
+}
+.form-organic{
+    color: #83868a;
+}
+.text-img-founder{
+   display: flex;
+}
+.founder{
+    width: 439px;
+    height: auto;
+    margin-left: 119px;
+    margin-top: 51px;
+    border: 19px solid;
+    border-radius: 37px;
+    border-style: groove;
+}
+.progress-text{
+  margin-top: 30px;
+  height: 0.5rem;
+  color: #00c3ff;
+}
+.seo-85{
+    justify-content: space-between;
+    font-weight: 500;
+    color: #83868a;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.gggl-ads{
+    padding-left:" 50px";
+}
+.social{
+    padding-left:" 50px";
+}
+.course{
+    margin: 15px 15px 15px 15px;
+    padding: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: #26B8BE;
+    border-radius: 14px 14px 14px 14px;
+    box-shadow: 0px 0px 10px 0px rgb(224 212 26 / 73%);
+    text-align: center;
+}
+.course-content{
+    color: #010102;
+    font-family: "Arial", Sans-serif;
+    font-weight: 800;
+}
+.img-content{
+    display: flex;
+   
+}
+.content-ads{
+    text-align: center;
+    color: #000000;
+    font-family: "Arial", Sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+.contents{
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.student{
+    text-align: center;
+}
+.our-student{
+    color: #030303;
+    font-family: "Arial", Sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Online-classes{
+    margin-top: 10px;
+    padding-top: 40px;
+    border: 19px solid;
+    border-radius: 37px;
+    border-style: groove;
+    color: #090909;
+    font-size: 16.5px;
+    padding-left: 10px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    word-spacing: 0.1em;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+    line-height: 21px;
+    padding-bottom: 30px;
+} 
+.reviews{
+    color: #070707;
+    font-family: "Arial", Sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 32px;
+    padding-top: 20px;
+}
+.youtube-video{
+    padding-top: 20px;
+}
+.youtube-video-1{
+  width: 510px;
+  height: 400px;
+}
+.Certifications{
+    font-size: 32px;
+    color: #151517;
+    font-family: "Arial", Sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 19px;
+}
+.certificate{
+    display:flex;
+    padding-top: 37px;
+}
+.certificate-1{
+    border-style: solid;
+    border-width: 11px 11px 11px 11px;
+    border-radius: 0px 0px 0px 0px;
+    color: cadetblue;
+}
+
+.certificate-2{
+    border-style: solid;
+    border-width: 11px 11px 11px 11px;
+    border-radius: 0px 0px 0px 0px;
+    color: cadetblue;
+}
+
+.certificate-3{
+    border-style: solid;
+    border-width: 11px 11px 11px 11px;
+    border-radius: 0px 0px 0px 0px;
+    color: cadetblue;
+}
+.paragraph-img{
+    display: flex;
+}
+.text-progress{
+  display: flex;
+}
+.aboutus{
+    padding-top: 90px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #a5b7d2;
+    position: relative;
+    display: inline-block;
+    padding-left: 21px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.grow{
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    color: #1a1b1e;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 36px;
+}
+.paragraph{
+    padding-top: 40px;
+    font-family: "Red Hat Text", sans-serif;
+    color: #606060;
+}
+.students-700{
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    color: #1a1b1e;
+    font-size: 50px;
+    display: inline-block;
+}
+.starter-template {
+           padding: 80px 15px;
+           text-align: center;
+           width: 131%;
+       }
+       .img-rocket{
+        margin-top: -107px
+       }
+
+span.lower-text {
+           color: #ffc300;
+           font-size: 25px;
+           display: block;
+       }
+       
+       .hover-div {
+           padding: 20px 20px;
+           text-align: center;
+           min-height: 350px;
+       }
+       
+       .hover-div {
+           border-top: 1px solid #f8f8f8;
+           -webkit-transition: all 0.3s;
+           transition: all 0.3s;  
+       }
+       
+       .hover-div:hover {
+           -webkit-transform: translateY(-20px);
+           -ms-transform: translateY(-20px);
+           transform: translateY(-20px);
+           box-shadow: 0 22px 43px rgba(0, 0, 0, 0.32);
+           cursor: pointer;
+           border-radius: 5px;
+       }
+       .setting{
+        width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 25px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background-color: #0039e4;
+    background-image: -moz-linear-gradient(145deg, #0039e4, #04dbf1);
+    background-image: -webkit-linear-gradient(145deg, #0039e4, #04dbf1);
+    background-image: linear-gradient(145deg, #0039e4, #04dbf1);
+    box-shadow: 8px 8px 30px 0px rgb(1 96 231 / 30%);
+    -webkit-box-shadow: 8px 8px 30px 0px rgb(1 96 231 / 30%);
+    -moz-box-shadow: 8px 8px 30px 0px rgba(1, 96, 231, 0.3);
+       }
+      .progress {
+        width: 150px;
+        height: 150px !important;
+        float: left; 
+        line-height: 150px;
+        background: none;
+        margin: 20px;
+        box-shadow: none;
+        position: relative;
+      }
+      .progress:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 12px solid #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .progress>span {
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+      }
+      .progress .progress-left {
+        left: 0;
+      }
+      .progress .progress-bar {
+        width: 100%;
+        height: 100%;
+        background: none;
+        border-width: 12px;
+        border-style: solid;
+        position: absolute;
+        top: 0;
+      }
+      .progress .progress-left .progress-bar {
+        left: 100%;
+        border-top-right-radius: 80px;
+        border-bottom-right-radius: 80px;
+        border-left: 0;
+        -webkit-transform-origin: center left;
+        transform-origin: center left;
+      }
+      .progress .progress-right {
+        right: 0;
+      }
+      .progress .progress-right .progress-bar {
+        left: -100%;
+        border-top-left-radius: 80px;
+        border-bottom-left-radius: 80px;
+        border-right: 0;
+        -webkit-transform-origin: center right;
+        transform-origin: center right;
+        animation: loading-1 1.8s linear forwards;
+      }
+      .progress .progress-value {
+        width: 90%;
+        height: 90%;
+        border-radius: 50%;
+        background: #000;
+        font-size: 24px;
+        color: #fff;
+        line-height: 135px;
+        text-align: center;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+      }
+      .progress.blue .progress-bar {
+        border-color: #049dff;
+      }
+      .progress.red .progress-bar {
+        border-color: #c2272e;
+      }
+      .progress.green .progress-bar {
+        border-color: #07d184;
+      }
+      .progress.blue .progress-left .progress-bar {
+        animation: loading-2 1.5s linear forwards 1.8s;
+      }
+      .progress.yellow .progress-bar {
+        border-color: #fdba04;
+      }
+      .progress.yellow .progress-right .progress-bar {
+        animation: loading-3 1.8s linear forwards;
+      }
+      .progress.yellow .progress-left .progress-bar {
+        animation: none;
+      }
+      @keyframes loading-1 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+        }
+      }
+      @keyframes loading-2 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(144deg);
+          transform: rotate(144deg);
+        }
+      }
+      @keyframes loading-3 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+        }
+      }
+      .seo-marketing{
+        display: flex;
+      }
+     .seo{
+        display: block;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 15px 0 0;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 800;
+     }
+     .row{
+      margin-left: -0px;
+      margin-right: -0px;
+    }
+
+
+    ::-webkit-scrollbar {
+      background: #000000;
+      height: 5px;
+      width: 5px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 2px #000000;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: #005a2b;
+      border-radius: 2px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background: #00b456;
+    }
+    
+    
+    .wrapper {
+      border: 1px solid #000000;
+      height: calc(100vh - 2px);
+      margin: 0 auto;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      position: relative;
+      width: calc(100vw - 2.55px);
+    }
+    
+    .scroll-top {
+      background: #005a2b;
+      border: 0;
+      border-radius: 50%;
+      bottom: 0;
+      cursor: pointer;
+      height: 50px;
+      margin: 15px;
+      opacity: 0.75;
+      position: fixed;
+      right: -70px;
+      transition: right 0.2s ease-in-out;
+      width: 50px;
+      z-index: 99;
+    }
+    .scroll-top.visible {
+      right: 0;
+    }
+    
+    .arrow {
+      border: solid #000000;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      margin-top: 5px;
+      padding: 4px;
+    }
+    .arrow.up {  
+      transform: rotate(-135deg);
+    }
+    
+    .content-container {
+      display: flex;
+      height: 300px;
+      width: 100%
+    }
+    
+    .content {
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: bold;
+      margin: auto;
+    }
+
+     @media screen and  (max-width: 992px){
+      .nav-item{
+        padding-left: 0px;
+      }
+      .main-form{
+        padding-left: 32px;
+        padding-top: 30px;
+      }
+      .heading{
+        padding-top: 0px;
+      }
+      .best{
+        font-size: 29px;
+    line-height: 44px;
+      }
+   .rating-student{
+    padding-top: 5px;
+   }
+
+    .collapse{
+      margin-left: 0px;
+     }
+      
+      .text-form{
+        display: block;
+      }
+      .text-img-founder{
+        display: block;
+      }
+      
+   .content-img{
+    text-align: center;
+    }
+      .founder{
+        width: 100%;
+        margin-left: 0px;
+      }
+      .youtube-video{
+        display: block;
+      }
+      .youtube-video-1{
+        width: 100%;
+        height: auto;
+        margin-top: 9px;
+      }
+    .starter-template {
+    width: 100%;
+      }
+      .certificate-1{
+        margin-left: 22px;
+      }
+        
+      .paragraph-img{
+        display: block;
+      }
+      .img-rocket{
+        margin-top: 0px;
+      }
+
+      .starter-template{
+        width: 100%;
+      }
+      .seo-center{
+        text-align: center;
+      }
+      .seo{
+        font-weight: 700;
+        font-size: 21px;
+      }
+      .seo-85{
+        padding-right: 200px;
+        padding-left: 20px;
+    }
+    .main-seo{
+      padding-left: 0px;
+  }
+      .certificate-2{
+        margin-top: 20px;
+        margin-left: 22px;
+      }
+      .certificate-3{
+        margin-top: 20px;
+        margin-left: 22px;
+      }
+      .text-progress{
+        display: block;
+      }
+      span.lower-text{
+        font-size: 95px;
+      }
+     }

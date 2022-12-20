@@ -1,0 +1,364 @@
+.img-form-digital{
+    display: flex;
+}
+.top{
+    color: #1a1b1e;
+    font-weight: 900;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 56px;
+    line-height: 72px;
+}
+.form-bg{
+    background: #e3f2fd;
+    padding-top: 30px;
+}
+.digital-img{
+    padding-top: 120px;
+}
+
+.form-control{
+    border-radius: 13px;
+}
+h4 {
+    margin: 2rem 0rem 1rem;
+  }
+  .form-group {
+    position: relative;
+  }
+  .container {
+    padding: 3rem 0rem;
+  }
+  .name{
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .section_our_solution .row {
+    align-items: center;
+  }
+  
+  .our_solution_category {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .our_solution_category .solution_cards_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .solution_cards_box .solution_card {
+    flex: 0 50%;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2),
+      0 5px 15px 0 rgba(37, 44, 97, 0.15);
+    border-radius: 15px;
+    margin: 8px;
+    padding: 10px 15px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    min-height: 265px;
+    transition: 0.7s;
+  }
+  
+  .solution_cards_box .solution_card:hover {
+    background: #309df0;
+    color: #fff;
+    transform: scale(1.1);
+    z-index: 9;
+  }
+  
+  .solution_cards_box .solution_card:hover::before {
+    background: rgb(85 108 214 / 10%);
+  }
+  
+  .solution_cards_box .solution_card:hover .solu_title h3,
+  .solution_cards_box .solution_card:hover .solu_description p {
+    color: #fff;
+  }
+  
+  .solution_cards_box .solution_card:before {
+    content: "";
+    position: absolute;
+    background: rgb(85 108 214 / 5%);
+    width: 170px;
+    height: 400px;
+    z-index: -1;
+    transform: rotate(42deg);
+    right: -56px;
+    top: -23px;
+    border-radius: 35px;
+  }
+  
+  .solution_cards_box .solution_card:hover .solu_description button {
+    background: #fff !important;
+    color: #309df0;
+  }
+/*   
+  .solution_card .so_top_icon {
+  }
+   */
+  .solution_card .solu_title h3 {
+    color: #212121;
+    font-size: 1.3rem;
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+  
+  .solution_card .solu_description p {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .solution_card .solu_description button {
+    border: 0;
+    border-radius: 15px;
+    background: linear-gradient(
+      140deg,
+      #42c3ca 0%,
+      #42c3ca 50%,
+      #42c3cac7 75%
+    ) !important;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 5px 16px;
+  }
+  
+  .our_solution_content h1 {
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+  /* .our_solution_content p {
+  } */
+  
+  .hover_color_bubble {
+    position: absolute;
+    background: rgb(54 81 207 / 15%);
+    width: 100rem;
+    height: 100rem;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    top: 16rem;
+    border-radius: 50%;
+    transform: rotate(-36deg);
+    left: -18rem;
+    transition: 0.7s;
+  }
+  
+  .solution_cards_box .solution_card:hover .hover_color_bubble {
+    top: 0rem;
+  }
+  
+  .solution_cards_box .solution_card .so_top_icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .solution_cards_box .solution_card .so_top_icon img {
+    width: 40px;
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  /*start media query*/
+  @media screen and (min-width: 320px) {
+    .sol_card_top_3 {
+      position: relative;
+      top: 0;
+    }
+  
+    .our_solution_category {
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .our_solution_category .solution_cards_box {
+      flex: auto;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .our_solution_category .solution_cards_box {
+      flex: 1;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .sol_card_top_3 {
+      position: relative;
+      top: -3rem;
+    }
+    .our_solution_category {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+  .background-imgs{
+    background-image: url("https://onum-wp.s3.amazonaws.com/images/shape1-home4.png");
+    background-repeat: no-repeat;
+}
+.internet-text-img{
+  display: flex;
+}
+  .title-about{
+    font-size: 14px;
+    font-weight: bold;
+    color: #a5b7d2;
+    position: relative;
+    display: inline-block;
+    padding-left: 21px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .enjoy{
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    color: #1a1b1e;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 35px;
+    line-height: 48px;
+    
+  }
+  .services-bg-img{
+    background-image: url("https://onum-wp.s3.amazonaws.com/images/bg1-home4.png");
+    background-repeat: no-repeat;
+  }
+  .our-benefits{
+    text-align: center;
+    padding-top: 60px;
+  }
+  .digital-pg{
+    font-family: "Red Hat Text", sans-serif;
+    color: #606060;
+    font-weight: 700;
+  }
+  .grow-bg{
+    background-image: url("https://onum-wp.s3.amazonaws.com/images/shape2-home4.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+  .two-row{
+    padding-top: 30px;
+  }
+  .img-grow-title{
+    display: flex;
+  }
+  .numbers{
+    font-weight: 900;
+    font-family: "Red Hat Display", sans-serif;
+    color: #00C3FF;
+    font-size: 20px;
+  }
+  .ppc{
+    color: #1a1b1e;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .ppc-pg{
+    font-family: "Red Hat Text", sans-serif;
+    color: #606060;
+    font-size: 17px;
+    width: 264px;
+  }
+  .plans-bg-img{
+    background-image: url("https://onum-wp.s3.amazonaws.com/images/shape3-home4.png");
+    background-repeat: no-repeat;
+  }
+  .plans-pg{
+    font-family: "Red Hat Text", sans-serif;
+    color: #606060;
+    line-height: 14px;
+  }
+  .standard{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: 13px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px 15px;
+    letter-spacing: 0.5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+  }
+  .rs{
+    color: #000000;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .monthly{
+    color: #a5b7d2;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  .social{
+    margin-top: 35px;
+    padding-top: 28px;
+    padding-bottom: 30px;
+    line-height: 42px;
+    border-top: 1px solid #e5e5e5;
+    font-family: "Red Hat Display", sans-serif;
+    color:#667b9a;
+  }
+  .our-company-img{
+    background-image: url("https://onum-wp.s3.amazonaws.com/images/shape4-home4.png");
+    background-repeat: no-repeat;
+  }
+  .After-pg{
+    color: #1A1B1E;
+    font-size: 20px;
+    font-family: "Red Hat Display", sans-serif;
+  }
+  .company-heading{
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    color: #1a1b1e;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+  }
+.latest{
+  text-align: center;
+}
+@media screen and  (max-width: 992px){
+  .internet-text-img{
+    display: block;
+  }
+  .about-side-img{
+    width: 100%;
+  }
+  .img-grow-title{
+    display: block;
+  }
+  .grow-side-img{
+    width: 100%;
+  }
+  .our-company-side-img{
+    width: 100%;
+  }
+  .img-form-digital{
+    display: block;
+  }
+  .top{
+    font-size: 19px;
+    line-height: 8px;
+  }
+  .enjoy{
+    font-size: 21px;
+  }
+}
